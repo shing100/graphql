@@ -25,14 +25,14 @@ export const getMovies = () => movies;
 
 // id 값으로 데이터 찾아오기
 export const getById = id => {
-    const filteredMovies = movies.filter(movie => movie.id === String(id));
+    const filteredMovies = movies.filter(movie => movie.id === id);
   return filteredMovies[0];
 };
 
 
 // 무비 삭제하기 ID를 가지고 있지 않은 것들을 cleandMoives 에 담음
 export const deleteMovie = id => {
-  const cleanedMovies = movies.filter(movie => movie.id !== String(id));
+  const cleanedMovies = movies.filter(movie => movie.id !== id);
   if (movies.length > cleanedMovies.length) {
     movies = cleanedMovies;
     return true;
