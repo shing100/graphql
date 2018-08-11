@@ -49,3 +49,7 @@ server.start(() => console.log('Server is running on localhost:4000'));
 
 - node-fatch
     - https://github.com/bitinn/node-fetch
+
+- axios
+    - node-fatch 보다는 axios 를 사용하는 것이 좋음
+    - underfatch, overfatch를 막을 수 있음
