@@ -6,6 +6,8 @@
     npm install -g babel-cli
 
     yarn global add babel-cli --ignore-engines
+    yarn add node-fetch
+
 
     이후 .babelrc 파일 설정
     {
@@ -40,3 +42,10 @@ server.start(() => console.log('Server is running on localhost:4000'));
     type Mutation {
         addMovie(name: String!, score: Int!): Movie!
     }
+
+- 영화 json data
+    - https//yts.am/api#list_movies
+    - https://yts.am/api/v2/list_movies.json
+
+- node-fatch
+    - https://github.com/bitinn/node-fetch
