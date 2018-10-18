@@ -8,6 +8,8 @@
     yarn global add babel-cli --ignore-engines
     yarn add node-fetch
 
+## babel
+> https://babeljs.io/
 
     이후 .babelrc 파일 설정
     {
